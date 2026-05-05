@@ -1,0 +1,17 @@
+{
+  "mqtt": {
+    "broker": "localhost",
+    "port": 1883,
+    "topic": "airquality/esp32"
+  },
+  "database": {
+    "path": "data/air_quality.db"
+  },
+  "device": {
+    "location": "Room-1"
+  },
+  "processing": {
+    "good_threshold": 100,
+    "moderate_threshold": 300
+  }
+}
